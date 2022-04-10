@@ -49,7 +49,6 @@ Scenario('check that filtering functions (All, Active, Completed and Clear compl
 
   //Verifying that uncompleted items are filtering as active
   const TEST_ITEM_NAME_ACTIVE = listOfItems.slice(-3);
-  console.log(TEST_ITEM_NAME_ACTIVE);
   createItemPO.clickActiveTab();
   const LIST_OF_ACTIVE_ITEMS = await createItemPO.grabListOfItems();
   I.assertTrue(LIST_OF_ACTIVE_ITEMS.every((item, index) => item === TEST_ITEM_NAME_ACTIVE[index]), `Active tab does not contains "${TEST_ITEM_NAME_ACTIVE}" as active items`);
