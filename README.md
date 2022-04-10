@@ -6,7 +6,7 @@ Was created with [**CodeceptJS**](https://codecept.io/) framework and **Playwrig
 
 ## Installation
 1. Please clone this repo.
-2. In order to use the CodeceptJS framework you should have `node at last 12`.
+2. In order to use the CodeceptJS framework you should have `node at least 12`.
 3. In the terminal follow the project location and pass:
 ```bash 
 npm install
